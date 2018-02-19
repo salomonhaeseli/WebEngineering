@@ -1,0 +1,7 @@
+.formField{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: rgb(182, 68, 68);
+}
