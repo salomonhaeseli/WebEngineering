@@ -1,7 +1,65 @@
-.formField{
+.registrationForm {
     font: 95% Arial, Helvetica, sans-serif;
     max-width: 400px;
     margin: 10px auto;
     padding: 16px;
-    background: rgb(182, 68, 68);
+    background: #F7F7F7;
+}
+
+h2 {
+    background: #43D1AF;
+    padding: 15px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+
+.formField {
+    display: block;
+    margin: 15px auto;
+    background: #F7F7F7;
+    text-align: center;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    transition: all 0.20s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+}
+
+.formField:focus {
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+
+.formButton {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    margin-bottom: 2%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+
+.formButton:hover {
+    background: #2EBC99;
 }

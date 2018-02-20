@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>LifeToDo</title>
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>LifeToDo</title>
+</head>
+
+<body>
+    <div class="registrationForm">
         <h2>Registration-Form</h2>
-        <form>
+        <form action="mailto:dierk.koenig@fhnw.ch" method="post">
             <input class="formField" type="text" name="name" placeholder="Name" />
             <input class="formField" type="text" name="surname" placeholder="Surname" />
-            <br>
             <input class="formField" type="date" name="birth" placeholder="Birth Date" />
-            <input class="formField" type="email" name="email" placeholder="E-Mail Adress" />
-            <br>
-            <input class="formField" type="text" name="goal" placeholder="Your Goal" />
+            <input class="formField" type="email" name="email" placeholder="Your E-Mail Address" />
+            <textarea class="formField" name="goal" placeholder="Your Goal"></textarea>
+            <button class="formButton" type="reset" value="reset">reset</button>
+            <button class="formButton" type="submit" value="submit">Send Mail</button>
         </form>
-    </body>
+    </div>
+</body>
+
 </html>
